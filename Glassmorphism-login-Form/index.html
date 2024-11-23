@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form by coding Classic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <div class="login-title"><span>Login</span></div>
+        <div class="input-wrapper">
+          <input type="text" name="user" id="user" class="input-field" />
+          <label for="user" class="label">Username</label>
+          <i class="fa-regular fa-user icon"></i>
+        </div>
+        <div class="input-wrapper">
+          <input type="password" name="pass" id="pass" class="input-field" />
+          <label for="pass" class="label">Password</label>
+          <i class="fa-solid fa-lock icon"></i>
+        </div>
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember Me</label>
+          </div>
+          <div class="forgot">
+            <a href="#">Forgot Password</a>
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <input type="submit" name="Login" id="Login" value="Login" />
+        </div>
+        <div class="signup">
+          <span>Don't have an account <a href="#"> Sign Up</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
